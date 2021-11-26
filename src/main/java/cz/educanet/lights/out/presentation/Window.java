@@ -21,7 +21,7 @@ public class Window extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/fxml/game-window.fxml")));
 
-        Scene scene = new Scene(root, 700, 500);
+        Scene scene = new Scene(root, 800, 600);
 
         primaryStage.setTitle("Zhasnuto");
         primaryStage.setScene(scene);
